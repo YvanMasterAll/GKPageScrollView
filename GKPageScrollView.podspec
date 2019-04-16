@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.source              = { :git => "https://github.com/QuintGao/GKPageScrollView.git", :tag => s.version.to_s }
 
-  s.source_files        = 'GKPageScrollView/objc/*.{h,m}'
+  s.source_files        = 'GKPageScrollView/swift/*'
 
   s.frameworks          = "Foundation", "UIKit"
 
